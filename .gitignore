@@ -85,3 +85,4 @@ xcuserdata
 
 
 # End of https://www.gitignore.io/api/xcode,swift,swiftpm,swiftpackagemanager
+.DS_Store
