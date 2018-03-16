@@ -13,7 +13,7 @@ let generateCMD = command(
     
     //寻找String
     let currentPath = Path(dirpath)
-    print("searching...")
+    print("searching......")
     let stringPaths = searchStringFiles(currentPath: currentPath)
     if stringPaths == nil || stringPaths!.isEmpty {
         print("no search found")
@@ -58,7 +58,7 @@ let generateCMD = command(
     
     //导入字典
     var langEditDic = [String: Dictionary<String, String>]()    //{key值:{语言:翻译}}
-    print("improt String file...")
+    print("improt String file......")
     for langKey in langStringArray {
         let paths = langStringDic[langKey]
         for path in paths! {

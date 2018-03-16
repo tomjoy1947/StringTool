@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66850F3205B745700BB5F25 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66850F2205B745700BB5F25 /* Combine.swift */; };
 		OBJ_100 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* CSVReader.swift */; };
 		OBJ_101 /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CSVWriter.swift */; };
 		OBJ_102 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Endian.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B66850F2205B745700BB5F25 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
 		"CSV::CSV::Product" /* CSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Commander::Commander::Product" /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* GenerateCommander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateCommander.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			children = (
 				OBJ_10 /* GenerateCommander.swift */,
 				OBJ_11 /* UpdateCommand.swift */,
+				B66850F2205B745700BB5F25 /* Combine.swift */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				OBJ_80 /* SearchFileTool.swift in Sources */,
 				OBJ_81 /* StringConverter.swift in Sources */,
 				OBJ_82 /* main.swift in Sources */,
+				B66850F3205B745700BB5F25 /* Combine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
